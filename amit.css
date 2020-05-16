@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+     perspective: 500px;
+     /* overflow: hidden; */
+     
+     /* overflow: hidden; */
+     
+}
+
+/* base */
+::selection {
+    background-color: crimson;
+    color: white;
+}
+
+bs-color {
+    color: #e3322b;
+}
+
+
+
+
+
+
+
+/* start header */
+
+header {
+   display: flex;
+   /* border: 1px solid black; */
+   /* justify-content: start;     */
+   align-items: center;
+   background-color: #fff;
+}
+
+header .logo {
+   /* display: inline-block; */
+   /* padding: 20px; */
+   margin-right: 52px;
+}
+ header .logo img {
+    width: 200px;
+    height: 58px;
+    margin-left: 10px;
+    /* border: 1px solid black; */
+    vertical-align: middle;
+ }
+
+ header nav {
+     display: flex;
+     align-items: center;
+     /* margin-top: 30px; */
+     /* vertical-align: middle; */
+    
+ }
+  
+
+ header nav ul {
+     display: flex;
+     /* border: 1px solid black; */
+       height: 58px;
+      width: 1000px;    
+    justify-content: space-around;
+    margin-left: 102px;
+    /* vertical-align: middle; */
+    line-height: 70px;
+ }
+
+ header nav ul li {
+   /* padding: 20px;       */
+   /* text-decoration: none; */
+   list-style: none;
+ }
+ 
+ header nav ul li a {
+     text-decoration: none;
+     color: black ;
+     font-weight: bold;
+     padding: 10px;
+     font-size: large;
+ }
+
+header nav ul li a span {
+ background-color: black;
+ color: white;
+ color: #fff;
+ padding: 5px;
+}
+
+ header nav ul li a:hover {
+    /* text-decoration-line: underline; */
+      /* border: red; */
+     /* text-decoration-line: underline; */
+    color: red;
+     /* text-underline-position: below ; */
+     /* list-style-position: inside; */
+ }
+
+
+/* start style for slider */
+ 
+.slider {
+    background-image: url(img/bg-slider.png);
+    /* background-size: 200px 200px; */
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+}
+
+.slider  .write  {
+       
+      left: 258px;
+       top: 274px;
+      font-size: 47px;
+      font-weight: bold;
+      color: #fff;
+      background-color: rgba(2,2,2,0.5);
+     /* border: 1px solid black; */
+     height: 500px;
+     padding: 221px 191px;     
+
+}
+
+/* end slider */
+
+.hh {
+     font-size: large;
+     font-weight: bold;
+     text-align: center;
+     color: #e3322b;
+     margin-top: 20px ;      
+}
+
+/* cards style */
+
+.container {
+    display: flex;
+    /* justify-content: flex-start; */
+    
+    
+}
+.card1 {
+   position: relative;
+   /* width: 200px; */
+   /* display: inline-block; */
+   /* max-width: 400px; */
+border: black solid 1px;
+   
+}
+
+.card1 .header {
+    position: absolute;
+    text-align: center;
+    bottom: 336px;
+    left: 68px;
+    background-color: #e3322b;
+    padding: 7px 53px 7px 32px;;
+    /* border: 1px solid black; */
+     
+}
+      
+.card1 .content  p {
+    position: absolute;
+    /* word-wrap: break-word; */
+    /* width: 25%; */
+    bottom: 123px;
+    left: 18px;
+    /* border: 1px solid black; */
+
+
+}
+.card1 .content    a {
+    bottom: 25px;
+    left: 181px;
+    position: absolute;
+    text-decoration: none;
+    color: red;
+    text-decoration: underline;
+    /* border: 1px solid black; */
+} 
+
+.card1:hover {
+    transform-style: preserve-3d;
+    transform: translatez(10px);
+    transition: all .5s ease-in-out ;    
+}
+
+ /* start flib */
+ .cont-slider {
+   display: flex;
+   margin-bottom: 160px;
+   
+ }
+.flib  {
+
+display: flex;
+margin-top: 20px;
+/* vertical-align: middle; */
+width: 543px;
+height: 250px;
+padding: 10px;
+background-color: cornsilk;
+box-shadow: 10px 20px 20px ;
+  padding-top: 40px;
+  margin-left: 80px;
+}
+.flib .pho1 img  {
+border-radius: 50%;
+width: 100px;
+height: 100px;
+margin-top: 20px;
+}
+
+.flib .cont {
+   margin: 10px;   
+}
+
+/* end flib card */
+
+ /* start black */
+
+ .cont-black {
+     display: flex;
+      
+ }
+
+ 
